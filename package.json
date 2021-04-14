@@ -1,0 +1,16 @@
+{
+  "name": "sync-server",
+  "version": "1.0.0",
+  "description": "sync server",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "pm2": "pm2 start main.js --watch -i max --name file-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Francisco Javier Perez Rivero",
+  "license": "MIT",
+  "dependencies": {
+    "sync-files-cipher": "^0.3.6"
+  }
+}
