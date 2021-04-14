@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
-    "pm2": "pm2 start main.js --watch -i max --name file-server",
+    "pm2": "pm2 start main.js --watch -i 1 --name sync-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Juan Francisco Javier Perez Rivero",
